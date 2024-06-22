@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-con{
+    height: 500px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+   
+}
+.poster{
+    height: 90%;
+    width: 333px;
+    margin:30px;
+    box-shadow:  0px 0px 20px rgb(181, 178, 178);;
+}
+.poster img{
+    height: 60%;
+    width: 333px;
+}
+.text img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.mutual-friends{
+    display: grid;
+    grid-template-columns: .7fr 4fr;
+
+}
+p{
+    display: flex;
+    align-items: center;
+}
+.text{
+    display: grid;
+    gap:35px;
+    margin-left: 20px;
+}
+button{
+    height: 30px;
+    width: 50%;
+    /* margin-left: 20px; */
+    background-color: rgb(26, 26, 215);
+    border: none;
+    color:white;
+}

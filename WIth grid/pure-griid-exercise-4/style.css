@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.main-container{
+    height: 300px;
+    width: 400px;
+   
+    display: grid;
+    gap:17px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0 0 20px rgb(181, 178, 178);
+}
+ .id{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin: 8px;
+    position: relative;
+    top:5px;
+ } 
+button{
+   height: 30px;
+   width: 100px;
+   margin-top: 8px;
+   background-color: rgb(79, 79, 205);
+   border-radius: 10px;
+}
